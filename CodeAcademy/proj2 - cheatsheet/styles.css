@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgba(100, 149, 237, 1);
+    text-align: center;
+    position: sticky;
+}
+header h2 {
+    display: inline-block;
+    margin-inline: 10%;
+}
+
+#css {
+    display: none;
+}
+#semantic_elems, #h_elems {
+    display: inline-block;
+    margin-inline: auto;
+    max-width: fit-content;
+}
+.container div {
+    margin-inline: auto;
+    max-width: fit-content;
+}
+
+/* Table Styling */
+table {
+    border: 2px solid black;
+}
+th {
+    background-color: rgba(100,150,255,0.4);
+}
+td {
+    border-top: 1px solid black;
+}
+tr:nth-child(odd) {
+    background-color: rgba(0,0,0,0.2);
+}
